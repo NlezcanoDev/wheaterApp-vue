@@ -31,7 +31,7 @@ const handleSelection = (value: Required<IGeocodingDto>) => {
             <div class="w-options">
                 <h1><span>WEATHER</span>APP</h1>
 
-                <div class="w-location">
+                <div v-if="city" class="w-location">
                     <i class="bi bi-geo-alt"></i>
                     <p>{{ city }}</p>
                 </div>
