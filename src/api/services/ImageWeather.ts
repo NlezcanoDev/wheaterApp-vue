@@ -1,4 +1,5 @@
 import { Repository } from '../repository'
+import { ICurrentWeatherDto } from '../types/dto/ICurrentWeatherDto'
 
 class ImageApi extends Repository {
     constructor(controller: string) {
