@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500family=Montserrat:wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-brand: 'Kanit', sans-serif;
+    --font-primary: 'Montserrat', sans-serif;
+}
